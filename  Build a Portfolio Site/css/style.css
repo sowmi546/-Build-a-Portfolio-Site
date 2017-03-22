@@ -1,10 +1,7 @@
     .c2 {
         font-family: 'Roboto', sans-serif;
     }
-    .title-super {
-        font-size: 40px;
-    }
-
+   
     .row>img {
         height: 300px;
     }
@@ -22,3 +19,75 @@
     .main-img {
         width: 1140px;
     }
+.project {
+    width:100%;
+    height:280px;
+}
+
+@media screen and (min-width:489px)
+{
+    .title-super : 40px;
+}
+@media screen and (max-width: 488px) and (min-width: 378px) {
+    .title-super {
+        font-size :30px;
+    }
+}
+@media screen and (max-width: 377px) {
+    .title-super {
+        font-size :15px;
+    }
+}
+@media screen and (min-width:489px)
+{
+    .sub-title {
+        font-size:30px;
+    }
+}
+@media screen and (max-width: 488px) and (min-width: 377px) {
+    .sub-title {
+        font-size :20px;
+    }
+}
+@media screen and (max-width: 377px) {
+    .sub-title {
+        font-size :10px;
+    }
+}
+
+@media screen and (min-width:489px)
+{
+    .text-muted {
+        font-size:30px;
+    }
+}
+@media screen and (max-width: 488px) and (min-width: 377px) {
+    .text-muted {
+        font-size :20px;
+    }
+}
+@media screen and (max-width: 377px) {
+    .text-muted {
+        font-size :15px;
+    }
+}
+
+
+@media screen and (min-width:489px)
+{
+    .image-data {
+        font-size:30px;
+    }
+}
+@media screen and (max-width: 488px) and (min-width: 377px) {
+    .image-data {
+        font-size :25px;
+    }
+}
+@media screen and (max-width: 377px) {
+    .image-data {
+        font-size :15px;
+    }
+}
+
+
